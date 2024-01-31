@@ -1,7 +1,7 @@
 "use client";
-import { Item, ListItem, Nav } from "./Types";
-import { BottomNavigation } from "./Components/BottomNavigation";
-import { HomePage } from "./Components/HomePage";
+import { Item, ListItem, Nav } from "@/app/Types";
+import { BottomNavigation } from "@/app//Components/BottomNavigation";
+import { HomePage } from "@/app//Components/HomePage";
 import { useState } from "react";
 
 const listItems: ListItem[] = [
