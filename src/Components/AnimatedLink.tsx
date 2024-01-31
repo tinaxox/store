@@ -1,5 +1,5 @@
 "use client";
-import useAnimatedRouter from "@/app/hooks/useAnimatedRouter";
+import useAnimatedRouter from "@/hooks/useAnimatedRouter";
 import Link from "next/link";
 import React from "react";
 
