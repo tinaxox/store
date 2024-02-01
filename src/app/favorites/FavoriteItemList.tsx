@@ -1,7 +1,7 @@
-import AnimatedLink from "@/Components/AnimatedLink";
-import { ArrowButton } from "@/Components/ArrowButton";
-import { HeartButton } from "@/Components/HeartButton";
-import { ArrowIcon } from "@/Components/Icons";
+import AnimatedLink from "@/components/AnimatedLink";
+import { ArrowButton } from "@/components/ArrowButton";
+import { HeartButton } from "@/components/HeartButton";
+import { ArrowIcon } from "@/components/Icons";
 import { FavoritesContext } from "@/context/FavoritesProvider";
 import { useContext } from "react";
 

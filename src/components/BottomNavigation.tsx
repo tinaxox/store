@@ -24,7 +24,7 @@ export function BottomNavigation() {
   };
 
   return (
-    <div className="flex justify-between max-w-[400px] items-center fixed bottom-0 mt-10 w-full px-7 py-3 bg-white">
+    <div className="flex justify-between  items-center fixed bottom-0 mt-10 w-full px-7 py-3 bg-white">
       <AnimatedLink href="/">
         {" "}
         <button onClick={() => changeActive(1)}>

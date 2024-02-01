@@ -1,7 +1,7 @@
 "use client";
 import { Item, ListItem, Nav } from "../Types";
-import { BottomNavigation } from "../Components/BottomNavigation";
-import { HomePage } from "../Components/HomePage";
+import { BottomNavigation } from "@/components/BottomNavigation";
+import { HomePage } from "@/components/HomePage";
 import { useState } from "react";
 import { items } from "@/dummy/items";
 
@@ -20,11 +20,11 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col min-h-screen relative overflow-y-auto max-w-[400px]">
+    <main className="flex flex-col min-h-screen relative overflow-y-auto">
       {(activeNav.id == 1 || activeNav.id == 0) && (
         <HomePage items={items} listItems={listItems} />
       )}
-      <div className="relative w-full h-[50px]">
+      <div className="relative w-full h-[50px]  bg-red-700">
         <BottomNavigation />
       </div>
     </main>

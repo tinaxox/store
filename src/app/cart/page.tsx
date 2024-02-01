@@ -1,7 +1,7 @@
 "use client";
 
-import { ArrowIcon } from "@/Components/Icons";
-import { ItemsInCart } from "@/Components/ItemsInCart";
+import { ArrowIcon } from "@/components/Icons";
+import { ItemsInCart } from "@/components/ItemsInCart";
 import {
   AddToCartContext,
   AddToCartProvider,

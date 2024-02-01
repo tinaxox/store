@@ -16,13 +16,13 @@ body {
 ::-webkit-scrollbar {
   width: 0rem;
 }
-/* Animate the page header separatly */
-.pageHeader {
+Animate the page header separatly */
+/* .pageHeader {
   view-transition-name: page-header;
 }
 
 /* Animate the page content separatly */
-.pageContent {
+ .pageContent {
   view-transition-name: page-content;
 }
 
@@ -87,7 +87,6 @@ body {
     opacity: 0;
   }
 }
-
 @keyframes slide-left {
   from {
     opacity: 0;
@@ -99,7 +98,6 @@ body {
     transform: translateX(0);
   }
 }
-
 @keyframes slide-right {
   from {
     opacity: 0;

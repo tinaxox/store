@@ -1,5 +1,5 @@
-import { HeartButton } from "@/Components/HeartButton";
-import { ArrowIcon, TrashCanIcon } from "@/Components/Icons";
+import { HeartButton } from "@/components/HeartButton";
+import { ArrowIcon, TrashCanIcon } from "@/components/Icons";
 import { AddToCartContext } from "@/context/AddToCartProvider";
 import { useContext } from "react";
 

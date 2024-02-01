@@ -1,7 +1,7 @@
-import { ProductHeader } from "@/Components/ProductHeader";
-import { ArrowIcon } from "../../Components/Icons";
+import { ProductHeader } from "@/components/ProductHeader";
+import { ArrowIcon } from "@/components/Icons";
 import { items } from "@/dummy/items";
-import { ProductInformation } from "@/Components/ProductInformation";
+import { ProductInformation } from "@/components/ProductInformation";
 
 export default function ProductPage() {
   return (
