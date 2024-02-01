@@ -5,7 +5,7 @@ import { ProductInformation } from "@/Components/ProductInformation";
 
 export default function ProductPage() {
   return (
-    <main className="flex flex-col min-h-screen relative overflow-y-auto">
+    <main className="flex flex-col min-h-screen items-center relative overflow-y-auto max-w-[400px]">
       <ProductHeader />
       <ProductInformation />
     </main>

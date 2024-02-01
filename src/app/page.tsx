@@ -20,7 +20,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col min-h-screen relative overflow-y-auto">
+    <main className="flex flex-col min-h-screen relative overflow-y-auto max-w-[400px]">
       {(activeNav.id == 1 || activeNav.id == 0) && (
         <HomePage items={items} listItems={listItems} />
       )}
