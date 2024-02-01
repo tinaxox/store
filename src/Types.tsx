@@ -12,6 +12,7 @@ export type Item = {
   review: number;
   type: string;
   price: number;
+  description: string;
 };
 
 export type Nav = {

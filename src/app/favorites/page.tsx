@@ -10,8 +10,9 @@ import { FavoritesItemList } from "./FavoriteItemList";
 
 export default function FavoritesPage() {
   return (
-    <main className="flex justify-between items-center min-h-screen relative overflow-y-auto">
+    <main className="flex min-h-screen flex-col overflow-y-auto py-8 px-8">
       <FavoritesProvider>
+        <h1 className="text-2xl font-bold"> Favorite items</h1>
         <FavoritesItemList />
       </FavoritesProvider>
     </main>

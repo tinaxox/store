@@ -39,7 +39,7 @@ export function ItemBoxHorizontal({ item }: ItemBoxProps) {
           </div>
         </div>
       </div>
-      <HeartButton item={item} />
+      <HeartButton item={item} className="absolute right-1 top-1" />
     </div>
   );
 }

@@ -1,4 +1,6 @@
 import { Item } from "../Types";
+import AnimatedLink from "./AnimatedLink";
+import { ArrowButton } from "./ArrowButton";
 import { HeartButton } from "./HeartButton";
 import {
   ArrowIcon,
@@ -39,10 +41,13 @@ export function ItemBoxVertical({ item }: ItemBoxProps) {
           </div>
         </div>
       </div>
-      <HeartButton item={item} />
-      <button className="flex absolute right-1 bottom-2 p-1.5 rounded-full text-white bg-neutral-800 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
-        <ArrowIcon className="w-6 h-6" />
-      </button>
+      <HeartButton item={item} className="absolute right-1 top-1" />
+      <AnimatedLink href="/product">
+        <ArrowButton
+          item={item}
+          className="absolute right-1 bottom-1 bg-neutral-800 text-white shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)"
+        />
+      </AnimatedLink>
     </div>
   );
 }

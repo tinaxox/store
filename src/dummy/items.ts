@@ -9,6 +9,8 @@ export const items: Item[] = [
     review: 5.0,
     type: "Headphones",
     active: false,
+    description:
+      "Immerse yourself in low-latency, pinpoint-accurate surround sound with JBL Quantum TWS Air. Play anywhere with the 2.4Ghz wireless dongle and Bluetooth in full safety as Ambient Aware keeps you alert to your real world surroundings.",
   },
   {
     id: 109893284,
@@ -18,6 +20,8 @@ export const items: Item[] = [
     review: 4.8,
     type: "Earphones",
     active: false,
+    description:
+      "Immerse yourself in low-latency, pinpoint-accurate surround sound with JBL Quantum TWS Air. Play anywhere with the 2.4Ghz wireless dongle and Bluetooth in full safety as Ambient Aware keeps you alert to your real world surroundings.",
   },
   {
     id: 304506335,
@@ -27,6 +31,8 @@ export const items: Item[] = [
     review: 4.0,
     type: "Headset",
     active: false,
+    description:
+      "Immerse yourself in low-latency, pinpoint-accurate surround sound with JBL Quantum TWS Air. Play anywhere with the 2.4Ghz wireless dongle and Bluetooth in full safety as Ambient Aware keeps you alert to your real world surroundings.",
   },
   {
     id: 39459580,
@@ -36,5 +42,7 @@ export const items: Item[] = [
     review: 3.0,
     type: "Headphones",
     active: false,
+    description:
+      "Immerse yourself in low-latency, pinpoint-accurate surround sound with JBL Quantum TWS Air. Play anywhere with the 2.4Ghz wireless dongle and Bluetooth in full safety as Ambient Aware keeps you alert to your real world surroundings.",
   },
 ];
