@@ -1,5 +1,5 @@
 "use client";
-import { Item } from "@/Types";
+import { Item, OrderedItem } from "@/Types";
 import { useAddToCartManager } from "@/hooks/useAddToCartManager";
 import { useFavoritesManager } from "@/hooks/useFavoritesManager";
 import { ReactNode, createContext } from "react";
@@ -7,7 +7,7 @@ import { ReactNode, createContext } from "react";
 interface AddToCartContextProps {
   addToCart: (item: Item) => void;
   removeFromCart: (item: Item) => void;
-  productsInCart: Item[];
+  productsInCart: OrderedItem[];
 }
 
 export const AddToCartContext = createContext<AddToCartContextProps>({

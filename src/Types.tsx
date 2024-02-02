@@ -19,3 +19,8 @@ export type Nav = {
   id: number;
   active: boolean;
 };
+
+export type OrderedItem = {
+  item: Item;
+  numberOfWanted: number;
+};
