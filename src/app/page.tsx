@@ -24,7 +24,7 @@ export default function Home() {
       {(activeNav.id == 1 || activeNav.id == 0) && (
         <HomePage items={items} listItems={listItems} />
       )}
-      <div className="relative w-full h-[50px]  bg-red-700">
+      <div className="relative w-full h-[50px]">
         <BottomNavigation />
       </div>
     </main>

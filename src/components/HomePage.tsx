@@ -12,7 +12,7 @@ interface HomeProps {
 
 export function HomePage({ items, listItems }: HomeProps) {
   return (
-    <div className="">
+    <div className="max-w-[400px]">
       <h1 className="font-bold text-3xl mt-10 ml-7">Best Player</h1>
       <Filter />
       <ItemList items={listItems} />
