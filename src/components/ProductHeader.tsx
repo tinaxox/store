@@ -6,9 +6,11 @@ import { items } from "@/dummy/items";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import { useProductManager } from "@/hooks/useProductManager";
 import AnimatedLink from "./AnimatedLink";
+import { useNavigate } from "react-router-dom";
 
 export function ProductHeader() {
   const { product, setNewProduct } = useProductManager();
+  const item = product;
   return (
     <div className="flex justify-between w-full mt-7 px-6 items-center">
       <AnimatedLink href="/">
@@ -17,7 +19,7 @@ export function ProductHeader() {
         </button>
       </AnimatedLink>
 
-      {/* <HeartButton item={product!} className={""} /> */}
+      <HeartButton item={item!} className={""} />
     </div>
   );
 }

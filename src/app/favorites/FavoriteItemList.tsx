@@ -8,7 +8,7 @@ import { useContext } from "react";
 export function FavoritesItemList() {
   const { favorites } = useContext(FavoritesContext);
   return (
-    <ul className="w-full gap-5 flex flex-col mt-14">
+    <ul className="w-full gap-5 flex flex-col mt-14 pb-8">
       {favorites.map((item) => (
         <li
           className="relative flex justify-center items-center w-full h-[100px] bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-2xl"

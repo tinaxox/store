@@ -13,13 +13,13 @@ export function ItemsInCart() {
     useContext(AddToCartContext);
   console.log("ovdee", productsInCart);
   return (
-    <ul className="w-full gap-5 flex flex-col mt-8">
+    <ul className="w-full gap-5 flex flex-col mt-8 pb-8">
       {productsInCart.map((orderedtem) => (
         <li
           className="relative flex flex-col justify-center items-center w-full"
           key={orderedtem.item.id + orderedtem.numberOfWanted}
         >
-          <div className="flex justify-between items-center w-full">
+          <div className="flex items-center gap-5 w-full">
             <img
               src={orderedtem.item.image}
               width={"120px"}
@@ -27,7 +27,7 @@ export function ItemsInCart() {
               className="object-contain aspect-square"
             />
             <div className="flex flex-col">
-              <div className="flex gap-16">
+              <div className="flex gap-10">
                 <div className="flex flex-col w-full gap-1 items-start">
                   <div className="flex flex-col">
                     <h2 className="text-lg text-neutral-800">
@@ -69,6 +69,7 @@ export function ItemsInCart() {
               </div>
             </div>
           </div>
+          <hr className="w-full mt-3" />
         </li>
       ))}
     </ul>

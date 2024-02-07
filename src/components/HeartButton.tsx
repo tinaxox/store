@@ -22,7 +22,7 @@ export function HeartButton({
   const heartActive = favorites.findIndex((i) => i.id == item.id) !== -1;
   const toggleHeartActive = () => {
     const newState = !heartActive;
-    console.log("OVDE", heartActive, newState);
+    console.log(item.name);
     if (newState) {
       addToFavorite(item);
     } else {

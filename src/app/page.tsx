@@ -1,7 +1,7 @@
 "use client";
 import { Item, ListItem, Nav } from "../Types";
 import { BottomNavigation } from "@/components/BottomNavigation";
-import { HomePage } from "@/components/HomePage";
+import { HomePage } from "@/app/home/HomePage";
 import { useState } from "react";
 import { items } from "@/dummy/items";
 

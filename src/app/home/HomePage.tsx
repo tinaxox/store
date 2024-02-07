@@ -1,9 +1,9 @@
 import { FavoritesProvider } from "@/context/FavoritesProvider";
-import { Item, ListItem } from "../Types";
-import { Filter } from "./Filter";
-import { ItemList } from "./ItemList";
-import { ListedItems } from "./ListedItems";
-import { PopularItems } from "./PopularItems";
+import { Item, ListItem } from "../../Types";
+import { Filter } from "../../components/Filter";
+import { ItemList } from "../../components/ItemList";
+import { ListedItems } from "../../components/ListedItems";
+import { PopularItems } from "../../components/PopularItems";
 
 interface HomeProps {
   items: Item[];
